@@ -13,7 +13,11 @@ const App = () => {
   console.log("App component rendering");
   
   return (
-    <div className="min-h-screen text-white bg-gradient-to-r from-[#2b2e4a] via-[#4b6cb7] to-[#182848]">
+    <div style={{
+      minHeight: "100vh",
+      color: "white",
+      background: "linear-gradient(to right, #2b2e4a, #4b6cb7, #182848)"
+    }}>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
