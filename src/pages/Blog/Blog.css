@@ -1,0 +1,27 @@
+.blog-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  color: white;
+  backdrop-filter: blur(6px);
+}
+
+.blog-container h1,
+.blog-container h2 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.blog-container p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.author-signature {
+  margin-top: 2rem;
+  font-style: italic;
+  color: #00ffff;
+}
