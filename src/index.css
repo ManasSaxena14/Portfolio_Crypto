@@ -12,3 +12,40 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+/* App Container Styles */
+.app-container {
+  min-height: 100vh;
+  color: white;
+  background: linear-gradient(to right, #2b2e4a, #4b6cb7, #182848);
+}
+
+/* Error Fallback Styles */
+.error-fallback {
+  min-height: 100vh;
+  color: white;
+  background: linear-gradient(to right, #2b2e4a, #4b6cb7, #182848);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.error-fallback h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.error-fallback p {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #e3e3e3;
+}
+
+.error-note {
+  font-size: 0.75rem !important;
+  margin-top: 1.25rem !important;
+  color: #ccc !important;
+}

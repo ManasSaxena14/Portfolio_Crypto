@@ -1,13 +1,13 @@
-# Crypto Portfolio React App
+# CRYPTO X TRACKER
 
-A modern React-based cryptocurrency portfolio application with real-time data visualization and interactive charts.
+A modern React-based cryptocurrency tracking application with real-time data visualization and interactive charts.
 
 ## Features
 
 - **Real-time Crypto Data**: Live cryptocurrency prices and market data
 - **Interactive Charts**: Beautiful charts using React Google Charts
-- **Portfolio Management**: Track your cryptocurrency investments
-- **Responsive Design**: Modern UI with Tailwind CSS
+- **Portfolio Management**: Track your cryptocurrency investments (coming soon)
+- **Responsive Design**: Modern UI with custom CSS
 - **Multi-page Navigation**: Home, About, Portfolio, Blog, and Login pages
 - **Context API**: State management for crypto data
 
@@ -17,7 +17,7 @@ A modern React-based cryptocurrency portfolio application with real-time data vi
 - **Vite** - Fast build tool and development server
 - **React Router DOM** - Client-side routing
 - **React Google Charts** - Interactive data visualization
-- **Tailwind CSS** - Utility-first CSS framework
+- **Custom CSS** - Modern styling with custom CSS
 - **ESLint** - Code linting and formatting
 
 ## Getting Started

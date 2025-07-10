@@ -53,11 +53,11 @@ const Home = () => {
     <div className="home">
       <div className="hero">
         <h1>
-          Largest <br />
-          Crypto Marketplace
+          CRYPTO <br />
+          X TRACKER
         </h1>
         <p>
-          Welcome to the world's largest cryptocurrency price tracker, where you
+          Welcome to CRYPTO X TRACKER, your ultimate cryptocurrency price tracker, where you
           can explore real-time market data and analyse trends across thousands
           of digital assets.
         </p>

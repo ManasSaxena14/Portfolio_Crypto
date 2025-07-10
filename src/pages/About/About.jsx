@@ -3,10 +3,10 @@ import './About.css';
 const About = () => {
   return (
     <div className="about-container">
-      <h1>About CRYPTO "X" PULSE</h1>
+      <h1>About CRYPTO X TRACKER</h1>
 
       <p className="intro">
-        CRYPTO "X" PULSE is your ultimate companion in the fast-paced world of cryptocurrencies.
+        CRYPTO X TRACKER is your ultimate companion in the fast-paced world of cryptocurrencies.
         We provide real-time data, comprehensive market coverage, and an intuitive interface
         to help you stay ahead in your investment journey.
       </p>
@@ -28,7 +28,7 @@ const About = () => {
       </section>
 
       <p className="closing">
-        Whether you're a seasoned trader or just starting out, CRYPTO "X" PULSE equips you
+        Whether you're a seasoned trader or just starting out, CRYPTO X TRACKER equips you
         with everything you need to make informed decisions and grow your crypto portfolio
         with confidence.
       </p>
