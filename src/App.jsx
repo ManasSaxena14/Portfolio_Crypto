@@ -10,6 +10,8 @@ import { Blog } from "./pages/Blog/Blog";
 import { Login } from "./pages/Login/Login";
 
 const App = () => {
+  console.log("App component rendering");
+  
   return (
     <div className="min-h-screen text-white bg-gradient-to-r from-[#2b2e4a] via-[#4b6cb7] to-[#182848]">
       <Navbar />

@@ -4,7 +4,7 @@ import { CoinContext } from "../../context/CoinContext";
 import { Link } from "react-router-dom";
 
 const Home = () => {
-  const { allCoins, currency } = useContext(CoinContext);
+  const { allCoins, currency, loading, error } = useContext(CoinContext);
   const [displayCoins, setDisplayCoins] = useState([]);
   const [input, setInput] = useState("");
 
@@ -26,6 +26,28 @@ const Home = () => {
   useEffect(() => {
     setDisplayCoins(allCoins);
   }, [allCoins]);
+
+  if (loading) {
+    return (
+      <div className="home">
+        <div className="hero">
+          <h1>Loading...</h1>
+          <p>Fetching cryptocurrency data...</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="home">
+        <div className="hero">
+          <h1>Error Loading Data</h1>
+          <p>Unable to fetch cryptocurrency data. Using demo data instead.</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="home">
