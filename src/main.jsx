@@ -8,10 +8,10 @@ const root = createRoot(document.getElementById("root"));
 try {
   console.log("Starting CRYPTO X TRACKER app...");
   root.render(
-    <StrictMode>
-      <App />
-    </StrictMode>
-  );
+  <StrictMode>
+        <App />
+  </StrictMode>
+);
   console.log("CRYPTO X TRACKER app rendered successfully!");
 } catch (error) {
   console.error("Error rendering CRYPTO X TRACKER app:", error);
